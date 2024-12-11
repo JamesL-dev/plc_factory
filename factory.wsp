@@ -1,0 +1,45 @@
+[VERSION]
+APIVERSION=(100)
+VERSION=(2,10,2,52)
+[FRAME]
+PLACEMENT=(44,2,3,-32000,-32000,-1,-1,268,-7,1420,580)
+FRAME DATA=(1,1,0,0)
+[FRAME DATA]
+1=(44,0,1,-1,-1,-8,-31,0,0,965,243)
+2=(44,0,1,-1,-1,-8,-31,26,26,991,269)
+3=(44,2,3,-1,-1,-8,-31,52,52,1017,295)
+4=(44,0,1,-1,-1,-1,-1,0,23,215,553)
+5=(44,0,1,-1,-1,-1,-1,0,23,255,194)
+6=(44,0,1,-1,-1,-1,-1,0,23,240,577)
+[Ladder Views]
+F1V1=(95,1,0,7,16,5,1,1,11,1,0)
+F2V1=(95,1,0,7,16,5,2,1,1,1,0)
+F3V1=(95,7,0,7,16,5,8,1,1,1,1)
+[Ladder Frame 1]
+Ladder View 1z=(0,0,928,200)
+ModuleSegment=11
+[FRAME TYPES]
+1=3
+2=3
+3=3
+4=14
+5=21
+6=25
+[Ladder Frame 2]
+Ladder View 1z=(0,0,928,200)
+ModuleSegment=6
+[Ladder Frame 3]
+Ladder View 1z=(0,0,1048,547)
+ModuleSegment=18
+[TAB INFO]
+Tab0=3,SLD_Copy_State
+Tab1=3,SLD_Program
+Tab2=3,$Main
+[DOCKPANE TO FRAME XREF]
+Project Browser`6852=4
+Launchpad`6855=5
+Instruction Toolbox`4381=6
+[DISPLAY MODE]
+DoMDIRestore=0
+[SYSTEM NAME]
+System Name=DESKTOP-1MLN0PT

@@ -1,0 +1,1976 @@
+// Options: Export entire program; Code Block delimiter instructions;
+// Formatted Rung Comments; Element Documentation Database w/Flags;
+// System Configuration; Memory Configuration/Devices with User Add-Ons only;
+// use Element names (no NickNames); rung/address annotations;
+// <SPACE> parameter delimiter; 
+// Write/overwrite file C:\Users\dev\Desktop\vgr_sorter_facto.txt
+
+PLC BX-DM1E-36ER3-D
+
+// Do not modify SYS_CONFIG block!
+
+#BEGIN SYS_CONFIG
+b746c64bd8710138cad00dacdfad5897f9f42a63a60bb43c31c754d9d1e826bbea82863d3db70256
+0aaa92c568a3b9382f87d838c0ee3c6e00babf35f48a393fef083883da16d95b10ae77362ef47151
+81a95be2fdc5c172592482555a5945d1dc1ebd6307277c2c102aa106ae5194aecca3025cdb191e3f
+132759fe3177a403db99833d8b9670224c9b54d39a5fda04db260c31aa4c8f806b62e4b8ecd6fbdd
+dc1d78062885879cfaa7951936385f48fad1840d656fc26876d152d8c8a4a381977833d87db48d9b
+a37c849e566075404e2e4e17a63ee9c0158b2cafb8fe8e786e16cd99a4369b81609eb82ae1a73503
+df05ab1394a9182b58deb082893655b8a1abacca99eac523754776b82f6f75d61453a644ef35ec87
+cbbdf5ccac1e6ded1ff345302609c11f0c1fb885e5231d1973c7acf5964decdbed293fa17b7bf4c3
+972a43e547a2edac85f80c41e17303e4ff91d79bd091877bf9aa8d33c41c0a2ef67e09375fb5a579
+cd0a0fe14d2cf01db9114be74ef9d1ab057860517f2b602ca5b9cec0a91fd6f592ab62febee76d55
+8ad4fc9802d1fed644522bcec95a5651d086b275f60494e5242efaab7e49a246e2f72b5ae0de86d6
+5da93fc06807057535f4ba60a87b93237459a33fec45a1927b9212637e6a43f9f274efc707262653
+c36b6d5514462cbf22f0b31f24d728515dfcca7061d61e06898c9e2d6f7900a00e1466f9d9371338
+84d0ffd0dfb29417d512949de36ca79c3b634e5427e1252c16816c863e742787eef1f797ff00fdc0
+c725ec4d7d543ce027b137bc79ae58942d0b2ea22912a219d084a782862c278d35dc1912684f0ff8
+61ec2bd71f1da1d33a9f2d905b01d195e542ac38984b41c19e34f6f5a524569266482828827a31d3
+32d57c38f6791df895f5fc82ab2317ddb32875945a59faaa5cacb32ad7d67345f2a5458b7bf5ea8e
+75ed1af58fefc6a5743f3d38ab2bdebe172b863a0185cc93d841a0169eefc499a44466480b554977
+58c61fc36908b5a512e115f943725c9935efb06694fb2e1081cd302692c7edfb873ebc8c92b50358
+98cf8a751637b740b6a755e659a7d30cfa30990196244560acf28f987240fadf33a5ddcb8dc2c09d
+9f4ae9a48950aa83f0ea40cdb29ba2ff50d0af5e538b15b2b2e086e3660f028728b7ea90f4292c65
+7f8eb7e80ca634bc543ad94993c0cf9927260136f4f967e57c44fda21810b7b36ec70c872b2db730
+9991ff0a580c245d1ada2197e01968438894c518f9dfbc84645391f72b1efaed970cf543ac6c4c7b
+2f94402f2575d19fc16482566b7217054f2ff432063de7921437e9ef671671781c57522deac945b0
+89fd6900fcf56d7649b16c02022618723f83501015eb16285fbe68989b4af0148ae2a8474a3daabc
+327c7ee386c6ba1cb63522161c6998faa3291342da152a696b56828e12a8a1d470a203dbd6e5f772
+373497b4e7ef4470c6808027ab17153971b948545fcc562f61ecec481d04417aac727ed7a04f15c1
+da211cb2cee5827b8839293b112ba71ff7fc8eeff0ebb6884202c6a9e72d81f1102479f4cb06741b
+045f664b8f90ee66e507b65cf7de99841ba627184eec8c8a19a82dee272c83743c4915276bd3ba34
+00ebb9cd7b3a2f57d7bfcdd58e0286d87258edc8fbef3e11d66c5438d2afd28809de3e960497f542
+da49d218313b465e1b9017804c260635d256144a4d3cd2a27059776752e22fb59f2c307f76144347
+1ab93bdc29c7af3e34fa347282882064dc5c30fbd2f01f3d417a4c734c1b004625e3e038d58b2c24
+21c4d21285f250cc46159ebcb94473180e422eea8aacfc7348891e69cb43c99a113336cb1cd99a9e
+fd78d0528db230c2ea188f501bedda7f8cc8fd0ccb3996d7cf79e60c19db245c0c21b7aa511c9187
+a6d22f61c5501c1207cf17604e70c094fc1d5c94095f0b2e1a877ec718142b7137f733c5b837a197
+e2822508e2747e398fbf65722857e4129b65e837187760097edfc7a67d0fc0d40155a79d807d3dc1
+b794378a065eed2feb3ffea48d6ebc3838647515a4c8cee6f5a6f57a21fccbc0cc36113b3c7a191d
+35daa0a3f35e6bd0f97be19d67225bd4bb3320235f36f48bb59f45d6b1df97f59b7f54e62337c7e8
+2acfe0c80b1998523bddeeeafb5d4e98683ac2e6b6ea733fccab1bd1ebf76c26abdb809e5be3be9c
+466230ba72d1c156b620f13478380c2b101dc8d3588e24ac125193441788683e810ddd27986bb8ac
+b9c223f70c814ec54ea623347110f4b6ff4300ca3d6e3dc89e61ed3cc66d9ecd3e4afa75854c9b02
+b7149cd4fd006689ce72f222f0e76d43a12c43a5dd5fef8cc55701076ee6da4fb9c433d879dbf34b
+4531d582b491e60eebe10803f505f6df70f20dab2226f2d5635473972359f13a808e8acf1d309729
+733574a457f66bdf6ce6f77a636e958894c1bb9726f893e7f7e2d167ca023335b63803069092337c
+2e708081cda92d941b85af94d0f5ff01a16acf42ccf82dcfee604c7af6a86879773b2ce809acb5e7
+271a64bc40bc4e04f35343f9efca8f028c048e8cdae649bf9309bb6634bbf051d82eb8cb7dcaa155
+a4ffed1d39db3fdace26f53143d5267a092ed868e15ac3e0c6bf7992a47ddda358421003f2d65238
+f208be0eaf914765e166afb778d82f52d5bba492b1b7cafc7b39d2f0e9b6f9a205b0b5653be32eee
+ab380cee151c81260a13d014e9b118db6878b3294d7afc2374db084f271cc0c90326c5e97993f804
+e41da7f9d32a72a5f6daa5eac3cdc0d80cfab9b6a125796532f70ce35fd52a51fe00b64e22ff23b0
+5d4b1a7f924fad778b2647987829a1a6c43d595f41d5e6a43b2df3d6ee49c47cb8bd15d7ee734a13
+6f8981a65622d60600c6c834235dcf6e5b9ad1e3c9232688df73545144a47946677adcf0e9b8f6d1
+37e7373ffb9a9af03422d6125eb8f4753db8291bed98091feec41c75c7f456b7ac519cbcde7dd760
+107af6ea595857cde9ce59acda90ba40aab3486a25ea25e1c3331756a6e33125282a4185b4d6bee4
+9e311d6919c7bd658076d2aae102f6c29aff098b58303c46ca878719f516a75b5f3f45c90b356045
+beb71b8168bf559378fab319aa3d8b9448a2d68b4f1f39648f8fe500293e0201fdb26fa154068545
+25ed1c2afab5ec757fcf93c09e8f1feb5515bbaba74ed6d9d9c4ec1fb8fcfaf2818b5ac30f880016
+0faf5264db4fa36af244610f7c4998d3413b0ba7f934438927b085e27b8ef1dab36791e5ccf2e7f1
+b29cc3fc2a95d1f6972ae6f184294742388e30db2cac495135187e2df44a23f87b612f57fa04a090
+ed7801f5fed6360d14b449bfcbafb5f59cc95a1385aaa9162e4a0f6609e7ab5ed1ead2cbf7ba6fad
+ab8296d17c758b7eaa50f02375863626f48f8cdc71c6ad95c267d41df359820ae82055fae31ee31d
+c4e2c04eded35976e7722b71d41eba60d54a04b4770d0e5ef30bb04bba958405fa8c51e4d76866f6
+3368604175aa86b3302cc911e0b4611d11789ff87ad8a2fcec7e5f00d54d0f893188cb1f3f209ac1
+1ec66de72ee5553e524d03367e3710f28c6dc1f1d43e8d74314cc5d330676668b9f563d65d3f5b9a
+35eb718618730d162620a8da1d86065cdc542b9c8e11beb80eb549711918b1b791529b63015fdb4e
+eeaa4875713a46e5adfb2c7f386f301827fcdcb221cdc94e5e22b20e85fbd594d50a180cb44b43a6
+077b73c01772b6c428ea0c714c6931628db9db476d2d4c72e5c160ad07bb4a6bfddcafcd5fc7b687
+dc88cf7559b8a3156b20509278535634d3b8baa19197dfacab5b71456be7987062fd521a0c5e92ff
+a016b22e1fdc15edfcd257c06024c6fe3a6a51a126ba1330a8ba258ae2f472581f21567e13099d5d
+2e794f35612d9e62be46a0720f32178ec52537a80731876c0a986b49612c5967c994dbd9c32411e5
+877ec28b42695d9313b651ed60d9d1df8a06ab73b2db8d3c573ba4eb9eb1521b176c8ddc02986fe5
+6ea624be23887f33c4eedaf47689ba5202674127d8f2b58b6cc68d93a7f929061118a27e1bdfed18
+7423f7706ce2a94557c86711a7649ba3cbba1398995a936b2ea034916417a29e9ab85fc00042a70b
+e559d46d7d7333ec349f65ac937a506cdc6c8027e85798142f31395e8a9595a06aa1e03adfa50088
+04c96330a5b7bfaea315aa26f11ebdc2ef36cf11a52fee25b6acc03c5a28e7b930520603ed16ea38
+be67c18abc24235976e7d7451440e58d67ccef2392dfee04f60a5e350af829533283a9a2de0c0ae3
+35ac0108465759462ac8cbb909196d5e3025995be0f300130243bffd70b037310f78505568a95f5b
+1a18a11b3f462ffd26ccbdf429ce899b6f0efbb928fb5b1f7477b97c6cca2afc9a5db0574dd619b1
+ad5ea867ea08b885d6411cbd2ea351addcc0a64c267868fa7fb8386626b9f2f1e15ef15107368eb5
+f34efeee48a97f191ee63557c15bc76c9d71a22fcd7d1c0edafbf2c3f7fc70ac3b0f90161db320e0
+09a083e34df3f4bcba5913fa62d6a89beb9df24f91b15f367733fbc41510142b2f0656f856e0480a
+cf62f3a5432ed539711682d78a9374517b701d75542a761869f61fe20268549e0db4bb9febebbdb0
+360a576ca687c64f4fda3627268f8d33c4d6f20c8dd231e4e530e6935eef2dfd3a8ae9d51da57712
+1c453ad337d1fe2d18e006131d1a405d6928e8d3add8eaa27b3048becf6a4d70abaf4959988957e8
+5ffaaed64e834d2ecf469a48849fb5372f4fea4ddf4dcf54a1e53b970a3c5519c2a46598745dbbd4
+8708a8cdfc0d2d3695d541ccc122152bef12fed7dd6a44bbeb6d21590d506f4f9be47a94aada23b2
+14ff373032088a55a615cad3e542b05587669292077b92599b38cb010ee734dfcb88550f0faecacc
+7a25cdf7239eff629eeea7fca1252c00372026b2c31da3bb0cb907522ba854246dffc566b4f12fe7
+984472cad51b606f3588e9768afab3e8b531be156d3441cfb649018544bac4920b4845ab8e4f0236
+12b47840c801174795c4c1249950d8e105f6641cd5c83b9218d5ca55502c81f2a504c1c38b782aae
+e52ee529826efbc2fd4cb3d5d38e86c32ed91c00c8042b93d7e9e3496311e78df3867d4f712f43f2
+0a331ff7f9320cccfb0382acf162bf59bbb84b0396e9e8a58008e081eaace13b7b383c64f62d28ec
+2ffda8d4198a48f7fdcebe0856dcc267e21f79a853e12dad1944236f340cbef39d8367f574cce114
+35e6166aecb9ff50636b33a138902779c499b9d49bae4daf62e23dc56ec08e39df1a98ce81f6489d
+a799445860448b1e45994cf4abb23bbfa02ce0a7b37dc8fa01026b9fd2d4f35c313423fbc6ffcee2
+bb698c596ffc674d35f74b27a3d5938e94f4c0248bcffc92f7b58eb7c6c85a5028d5637d94236f21
+b682a3b7a0ea0298b557d188c1a94468fa5e5fd31fe0bbc63768504ff57fca9a2f4d24f31903206d
+c98bed89c99af02c3ca75e966735c49b59b56454b6c31ffc759b8981e9e76c671170e1924c68a77b
+4627a8dbc07b906e756e90bedf600d0af926c7419347aa273de257b80dd1a013243dfd7bc0901d5c
+8b7800362e0295f49d3feabe2dfa2ade2ccc131aef886e075054226a0dd99a0e8f98390018b2d7aa
+65cf401a84d35b72f42ab412165d98aadd5d03d73327b7895635f6f17e235fa4639b6d9c00c4cde3
+788500687d108a227b79c4404cc0401b5f4c675de63d901778a7e514b5fe18c9186cc53d3bc78db8
+893d6d3411fea9eeb927b6c7fa4a552b33ef377a5291619c3d0ebd8347a3a92a8659f8203e789118
+8e4270b4c52be12ff37c1ed7ff3d8ec0065b685b7bc3df55367bddae6c81252a07c7f3508f6f54be
+0397213042b83e8c90f1c0349d651d1e31197adf424ae5cd355d7516cec8dcfe7968fe22bc67ab0f
+800c64d85b209bd5cb703e4a7ea19a48eac4db325c7f63bd5b51afe45751a32f7bdd52b1d909f3d2
+64690605f54ec1a029b19f6ab7a330498f39a69eff0b910f093478c4eec1d8eb3b982e1665772496
+8227822e2538d05e4d6ebece06724b912782b164bd77da28c4e2e0b238a88ccba49107ebac5f4541
+759c5aaf2531507650bf1c6ece04bb851e53ab4271c39fbf925c0e5340c98dfcac4940ea442c4ac8
+eb83a12c8bd882a98270f90a80b35bdfe10661a475fe0d1c71516f4f1085328e147506b90f48452e
+043757391380befe09b9efeeab6e36e413acc2ab775f6f518dcf91232a230e4834263ec984bac31d
+7d68b7e1e48fd29bdbc084f2230fe9401b8b590d7427fc22235268085b8f7928b7f4c6966a95fb2d
+a0ebe2580d9f2af8d87e3e74017ea59d74b8bcf3ebbaff2a37b30a454127962253165bfa526ab592
+dcfdadbf8a9a69639a16181027adbe4a4f6b404effb331e506e1c9caf6926d8d4be7901a921d6d04
+aa9ab13b77257b07c16461b7899730360509268021f9df66af8a52fdba3dbb932fa5d3aa27153b8a
+1e67533f4cb3426e1c95304a7e42a42ac0d0cbaee13990d008d2138538dcd97798d859260f69ff86
+17bc8d9105960afb5969666bff3940aa61d815209c1f655a86fd22df155256ea743e652eecf4c371
+edc374bd7e38793cc6c3b51e58715620d81a1e4d3192a51f461669ca81c36cdb43b28d5c911e119d
+a52b50106bf02f0bebedde6a1b5eb75dd28299828fd3c7834dd1a016ff72329eefdd0c9df412291f
+35c9d7e42b84f5e6ba8f48e96bb05081786233fa7a2eb12208e33d2ee229db884e15e631a65eac66
+b81eb6f9debbca6c7177632efdc39deed1f831d3de8463dcf43f9240ba967da359ebf100d4749352
+bb82422e91881c9a4067d1e65ca86812ba11838bbe226157416e02098d820020fd9d8aae61fd8ca1
+020f0581b7996488e547af9b85f1ead936be7af7c3b619161bfdbfbde8a04c848e776ba288d39b97
+1e7a263fba061e545dc796710e638e9ab849f15c95b4b444590b996646e6fa2b5e79c80161c26f00
+387d6913a73ba806cba757f94077d7b89109488e38747221cc6450261a5ca9bd316873a6e6828d29
+a62298e14e919ea6269acac950ec9df7eaab158bd51edaf5fc544c4a65349dadf1d7d4c3574e5e4a
+6a04f571977f3514a611dcd157d997f252bd37034edb8566f2fef63f220d42f74278e975049fac75
+290e5032f795434622de2fc3b33dd57d803de7e974368d73217fef60e8cf5da5db5c44ef7878ba40
+ec83b08ada1c7ff8caad423587aa543f2ad30ed4563f71f23b9550744a91a2be356899780550d319
+f9fe2ce97c63140a25f7c6c8b85669a327ba71c6a7b94e10a8f4fc83ae937d2f945af4a61043c26b
+0c32dbf3596df6d73f6601b55b6e03f66f08fe125d7a3a41beac14eb8d8ce8063524db61c7ee647c
+80ff5532a08e89c2f633e0db153e3e5117ad972fd0fcfe7cca05f6198ca1116e8447211f70d9395b
+8d2d02783ba41bab7a2bbc65325f4135b3404061f012a92c746cf265d4f1e6d9a5764621a3cd80bf
+f640677a0f3a1141bf6ac0a624efdeba2d9c9685aa0dc1fcb627985f21091c4ccfdfdf3a85267a66
+fed2fd2783678add7d4b9c9bf41523107ad2a2c81baff787b126da9d08ed3c3777335d27a45b85fa
+93b3a6d6641716ef2fa4e4febab209e7e961d688acdef54a9629cbb2752420618d119da771b65f90
+0de193204d849e5906fe56753bc2317e87beb695e857f5ff6613c1c1f2d4f5017eb802a5080d3823
+bb6ebaa6cfda638e5ef5cea0cfa036fed8d2fab96c3bb9451a1f7bed90efc4fbc282596f3069a9e2
+7b89a1992f4b6b0b3d49860bb1ce575b06f35db2b77a7efb351826a2936bb377961a2d28693bd58a
+7660f251255a8a3a3ae601e52c3b5f7e45a22f7391c1302216db565c19a0753925d20bab565147ac
+dd242bec4bd67e7eee5ff7820429f8581758914ae6c8e1b2e8b2901527afeb7e6964ead5074557f3
+2703a6de013506cdc9fa4eb06448bb418cda9eba79a4117486da6a351c945a83040f39630727a547
+51e78cfe47d0a1282d0633a0181be7667b4e2fd907de5391d576f7a9baafb12e5069dd5277892dc6
+0e06d49bb96adb82f8a380814311bc04925a4efe11eac81b0df42270a1e9fee62a320602822e4bec
+c3938478f2d82014b074f777df23423b21e60e51e2af20e7929f2227d28fcab3ffbdf9ba3712730e
+d1108599cb89ecace75f5513369912cc86a17f3b63168f42d8f286d23fa84036400ec28466b47093
+64a5687389658250ade5472a6d3f858b8fe1be8b6e3f821bb6fcdcb3a699799d6c205a1979e21ee1
+e0d80452dc3cb9d438f6cc24c95381a2bea8f32f717ab034ddb9802a70f76eae16a361ef21e2c69d
+4997ef3f42cab6146090fdb42f9bad59618b428cfedd927c5f2389221ef4fbfafe4a589cef75974e
+90fdaaac9e8dd0eb65a445f28b1a6d9df62c5350db9f353bb59aca8e2a5cd12a6f289a5f2284b055
+8f85850d190bf851868f97e314d8f5fc3ec92828c4b502af355aaae07aa3784eeebf61c7cd6a0151
+a27578f076aa10a03d906878ebe6c77aba7644ec0634f62cae310778ca47b236ac8f81f5c25030e4
+4888a339bc08392157917306aa27151e625905a661b5b1caf14b680ecc43943f688545fd9e8c665c
+32e873fcd3f795041c174919d1c58cd71eda65893bb532549a69cf63ee9626ebcbdcc5b287b26337
+aad0e2e7140ae6e0f5445cb90cf9a4b09087e13aa606547a879d7357f8122ce76f2c9cc43faa31d9
+13bfaad2b798f3b8a06acaf8f9bd38421a4997ceb6dc74f905e32ba7c16d19ecd40d17629334bbb3
+a6b225035a1f6bfcee2adbf5609e8f7a7a64bef46992c8589d2d3e7c33fdebd86909a8aa76c43542
+8a734b407b7ad40ab99c336a1704b50da8bf20eb517cc0519c79ed216363fd5d71088f902199127a
+57ebf2365a3373e3deed1b9cd6b429408d48ecaa4106852e0aad63881b12fb6ca6804f016092070a
+6afc4393bd3bb9d35868e70410673ddfd057137a46d88e773578fb9af10b323db76312192ed94f1d
+11696eaff33a182fc138c4724fdf6b3ac51fd7a87a832df228f72253d819805c2c4bf1e2cd112e91
+937cce309fbd336f1970a3aa971c32fc7066f2f18e1dcf5feeb3cc260557f98e32e7ba3ea85b8cb6
+70ab5c1115dabd7db3b7f8eb67b4ec407b2af531b42988af7af7bee1c6783bc0b36234f96f1c19b5
+94e55b667992ee14cb8d7c0dd4d5063dfd21121e69b38e3a722b337531969eb9ff7876db416044df
+a2561bd9c7047aaa290a1055f64997fda2aee0c8f88660804bc34dad19e91115759bcf53198c35d9
+216611ce76e2cd054220be1f48f0ba7451eb1c08e0dfe0ff2e96adb93195ec2784331b5f1f55f034
+7507f8154ecf8cd3be66ab926727cd51ce26415f31e2e9a2ddf76fd562f16d903c7d732fcc52d2c4
+7e547b1d2be2245ac89a15eb4a2196743625ee0d7ffccdf5e24d84c61d060183a6f10c0294db4393
+910f8773ea8a29e7f191e7f66edaa4bf1aa7ebe4097adbd99ac4a644bcf85a2d5904c71a271d05cd
+42b0d711f503066a4ef83fb063d333f7c7f2bc03f82cc96cd8f89ae9eda0c282530f369e6d10f12c
+720e80568e7425ac388365876e2f13de316fdbbe8fbc43fa07457573a1819f3a65a7c2f5d2ea0407
+68595d244f72a500fa991e4d4e27b563e3a2b26664cdce8d4f5c5f473f7d13b184730ee67c4a3ad7
+ed23f415fc2483ae32c5c80fb3dcb9477224281dcae7a0d95a776154fa761a3dbd784aa4b342fe16
+330ab17bbf798fb548428a4aa2ccc59fa67969593a272252cebb3da0722efacf557a5f1c789fba14
+69b8c35b1848f0cda127a8e4019e069504f5dd3512027f307d423d620f72218b299cd7f6e3bf6bf0
+b39b8a3d52d288c80e717b36e4ecfae2c65fa945a605b1de3bc1663e6fa871d2ac1d6d64f2af26ff
+1bfcea9c7a6c2ccafb97b3c46ae6c82e756677c72a3b900169dba2b58f0cc5a229b48aec17f7a06f
+f4e8ade94b8bdf0dac712accd025b524fdbe8cd0aed3f0b8e69e39e44739653fa4c5208548707dac
+b24f47e860be325d3434dcf6827824dcc1da5146d3c5c685f53bec712382e1e5640b23a154435aab
+234f7c0a2ba312f2156f9fa29ccc29aad047b536a5faca6d71c4af1a5a14a7ef1c0c8aa0170c202d
+f2a851e38edd46eee60311d0f54dd22a7b7d6e6506d0dcee68aab2b7f60d98b19c4e0cf19fda3118
+7495d5fce2e6c0a93a81c16573cf4f4bdc8cedfc6740fc5bbc3c09c78336fbda1b7b44f90fe88b39
+dc48bd685aa54827280cb5df16b18d90ee97a16c0bbbfcd55b934e041cd5b27670fc026140f78733
+8951d3be0adb7275a2ae94851e5adf3004814733f5eae0fe6b2840e389bf1387aed917a71ba5a8cb
+51cfc4e30f571a17e6d7ac3c36c612933e00924aadd827bbd0d4c349bbc270dde50acab2e6afe196
+3266fd7d9f98114d1c790f21fc45f7cb3f42ea97b2c24715144da0760469355e1861c1b0b42d7e2c
+2a812c6a40e1cbe0da6f7a07efc2cc26d46cd1d0a611384eb9208d173afea97d82ec8e89f6be8713
+48c571a0d8c857ccd001b36825a272af9102d7b716700ff6a04acdbebf5661271ecdde0b33ffdcd8
+82323f7a890c9a784257dbe9513cf26c2fa8e8de8c098f820b50b4a1dd3c3800b8af7ece2795892d
+d60d5ad2b8989f99a0efdb603026221394f16e98f544ef88e68d63ef0ee44252d726d024438011fc
+7dcfc8ff905dd77a72493cad1cfeffa7f452e5abf92da5ad9ee422e6bbbef8fa0faeeea20715f27c
+00645f92992c0284037a25c51244ff328a11c5781f01cc5db4f29005e5901ff908f90f72a7fda64b
+7b5d206229eeffcbc908769377bd43a1ede4a5acbc14c20647d321e501f6545d8e085d73a137b1be
+8381d01ccaf7180c3d5d58e76efd637989152db30658591d241d413be5ce781640c117469d8ac927
+a22cff569303924d945c059603041055fd5fec332b9ce83bb00cdfd64f76429aaaf298481cb61f90
+f8f000504bd55b77735de2a473a192e7d494e85b920116326804b72ddae807898aad1943b3ef46b9
+d71a50a55b0e6487c0ebd58e895d0c0d3f1d67d0abe78efa12a58cb378b7da54052d5811366bb155
+b8801ee40f4ef2b17148436a5bd7039eeac79dfe1e8de52c1adc36ef6ec7e6f9a9cb64fe7976ebc2
+75cc97c590c29adff15cd50958d83c518617f9bd598127579ae45f8ab852e50825a9a9215bd509e6
+ddb2fd53437e3888c1d6481a37d6e2991fa86b01d361973af1ef7c73972e4ea1a5237629047fcf69
+abd7187bf8d533681be842b61400eae152ab85b6808cf64ac55ef3913f16adccb107eb34666188e8
+22457b94ae9f04ee5f534d57e5b97887b06d3084138a64d8a5527d24df061f1a6b0ea2ef0000ee77
+2cf60f268ff1fc2a511e49e5227c97b8a950bd83fc4bcd2f25edfb1aad3c8afa92244046eba2384e
+3d9e840e094a989a9b121ac9476041fa7898a04a99d1aa73938d0dcb8a24815e4afcc9c3d433d2fb
+b50431a8b4859ced9d5072978a0136b8d6959b86d308facda84ea2f18dc28205a95c299a8af96eb2
+9947b32e4bf3c0d02ad1ba8de035c90510d25414aa45231d52c7cd459db0b0d9e46d41466fc7762d
+180405dd3f7a3fa632f13429b7bd0f71a72ac80ce4cca6ba0e6102130947d9ee6dbfdcdd41aa62ee
+2e164586ec30024be519501eba19b0fee4efabb55b4ba259f7c653bda0afa8e71b6b81a19c41f67b
+09f7c9687b449aa9a10e923f5e59bb0680f4c853d25321fb849685ba536386f677273b624b515c4d
+14076cf9d4093f0fe20a1faa574fd2ef0b120b85f17530d1086870560cd4e70827b943ce20e05d93
+976a9df221615e2f5a28e303c8efc5b85ae6ec03965ed91fa1f04c507c0deefd0347472cc797ff18
+429d120a161fbc4e8f4a1c57f26bc419b90ab12e22d026fa3698566385afc75498e24ce8a54479fa
+5490a1543189de9a9c52e485aa97c89fa8eebb6f66dcfc2d892ef5366a188b6e38535f37ebf548ae
+ca465b645fe8a65bc3636a2d74fc25562d9bea2c3ac819102f84f04eb82e2b5ec8a37f7c99e8ab4a
+9a6640d52b7a6d0694f392ba7e9431fe846f5ee271d40577a5e16ac3cd8a71b27f2ed25d259f453f
+7bb3b8e21ba697ab1c346b4d15717a40a4703c1dced18e21c10be3196e359d67d338a6474a06aff8
+88e2ef8b8c308430a1a020e33f5e21c1eebb3e2a5a47a13ef7f1659dcb62e1665cfaaa67148d6519
+272baae8b480389e3a7b83820a5531b9af9af816419c4c6730a44fdf28857cc37f46fe87e99a2816
+ab80b31875a4edcbb907a1add05b7da731d62450790b1a261da69fe8b5295759a2a08f4fcfb7dc8f
+d3e762e469fb63a6f8debeeb05e3c17ecb5d7ec2f197b1f7b8b41f95f4233e2b749c2a818ce17a7a
+53a262c83f763174d90f1939c87d2f8e4b29af220a1fb5ab5b4dc7186deb364947a48adedc2aaa85
+b2ab177ecd24ba867a2ee6a6544e451e
+#END
+
+
+
+#BEGIN MEM_CONFIG
+ HBW_Program PROGRAM  0 -1
+ VGR_Program PROGRAM  0 -1
+ VGR_Copy_State <Virtual>  0
+ VGR_Suction <Virtual>  0
+ MPO_Program PROGRAM  0 -1
+ MPO_Suction <Virtual>  0
+ MPO_Copy_State <Virtual>  0
+ SLD_Program PROGRAM  0 -1
+ SLD_Copy_State <Virtual>  0
+ SLD_Suction <Virtual>  0
+ SSC_Program PROGRAM  0 -1
+ SSC_Copy_State <Virtual>  0
+ HBW_Pick TASK  0 -1
+ HBW_Copy_State <Virtual>  0
+ PID_10 PID  0
+ PID_11 PID  0
+ MPO_Manual <Virtual>  0
+#END
+
+// Beginning of Code Block VGR_Copy_State
+$LGCMOD VGR_Copy_State
+
+// Rung VGR_Copy_State#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"VGR Program"
+#END
+
+STR ST1
+COPY 0x1 "4 0x0 MC410 C410 1 0x0 MC409 C409 1 0x0 MC412 Y28 1 0x0 MC412 MC450 1 0x0 MC411 C411 1 0x0 MC408 C408 1 0x0 MC406 C406 1 0x0 MC407 C407 1 0x0 MC413 Y29 1 0x0 MC413 MC451 1 0x0 X27 MI200 1 0x0 X26 MI454 1 0x0 X25 MI453 1 0x0 MC452 C452 1"
+
+// Rung VGR_Copy_State#2
+// Offset 33
+NOP
+
+// Rung VGR_Copy_State#3
+// Offset 34
+RET
+
+// End of Code Block VGR_Copy_State
+$LGCEND VGR_Copy_State
+
+// Beginning of Code Block VGR_Suction
+$LGCMOD VGR_Suction
+
+// Rung VGR_Suction#1
+// Offset 0
+STR ST1
+OUT Y29
+
+// Rung VGR_Suction#2
+// Offset 2
+RET
+
+// End of Code Block VGR_Suction
+$LGCEND VGR_Suction
+
+// Beginning of Code Block MPO_Suction
+$LGCMOD MPO_Suction
+
+// Rung MPO_Suction#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"Enable the vaccum and turn on the valve to hold suction "
+"when we are inisde and in the oven reset stage of MPO "
+"Program."
+#END
+
+STR MPO_Program.S1
+ANDN X18
+STR MPO_Program.S4
+ANDN X17
+ORSTR
+STR MPO_Program.S10
+ANDN X18
+ORSTR
+OR MPO_Program.S8
+OR MPO_Program.S13
+OR MPO_Program.S9
+OR MPO_Program.S11
+AND C2000
+OUT Y17
+
+// Rung MPO_Suction#2
+// Offset 14
+NOP
+
+// Rung MPO_Suction#3
+// Offset 15
+STR MPO_Program.S1
+ANDN X18
+STR MPO_Program.S4
+ANDN X17
+ORSTR
+STR MPO_Program.S10
+ANDN X18
+ORSTR
+AND C2000
+AND Y17
+OUT Y20
+
+// Rung MPO_Suction#4
+// Offset 26
+NOP
+
+// Rung MPO_Suction#5
+// Offset 27
+RET
+
+// Rung MPO_Suction#6
+// Offset 28
+NOP
+
+// End of Code Block MPO_Suction
+$LGCEND MPO_Suction
+
+// Beginning of Code Block MPO_Copy_State
+$LGCMOD MPO_Copy_State
+
+// Rung MPO_Copy_State#1
+// Offset 0
+RET
+
+// End of Code Block MPO_Copy_State
+$LGCEND MPO_Copy_State
+
+// Beginning of Code Block SLD_Copy_State
+$LGCMOD SLD_Copy_State
+
+// Rung SLD_Copy_State#1
+// Offset 0
+STR ST1
+COPY 0x1 "4 0x0 MC800 C1616 1 0x0 MC801 C1617 1 0x0 MC802 C1618 1 0x0 MC803 C1619 1 0x0 MC804 C1620 1 0x0 Y31 MI800 1 0x0 MC850 C1621 1 0x0 MC851 C1626 1 0x0 MC111 C1666 1"
+
+// Rung SLD_Copy_State#2
+// Offset 23
+RET
+
+// Rung SLD_Copy_State#3
+// Offset 24
+NOP
+
+// End of Code Block SLD_Copy_State
+$LGCEND SLD_Copy_State
+
+// Beginning of Code Block SLD_Suction
+$LGCMOD SLD_Suction
+
+// Rung SLD_Suction#1
+// Offset 0
+NOP
+
+// Rung SLD_Suction#2
+// Offset 1
+RET
+
+// End of Code Block SLD_Suction
+$LGCEND SLD_Suction
+
+// Beginning of Code Block MPO_Manual
+$LGCMOD MPO_Manual
+
+// Rung MPO_Manual#1
+// Offset 0
+RET
+
+// Rung MPO_Manual#2
+// Offset 1
+NOP
+
+// Rung MPO_Manual#3
+// Offset 2
+NOP
+
+// End of Code Block MPO_Manual
+$LGCEND MPO_Manual
+
+// Beginning of Code Block SSC_Copy_State
+$LGCMOD SSC_Copy_State
+
+// Rung SSC_Copy_State#1
+// Offset 0
+NOP
+
+// Rung SSC_Copy_State#2
+// Offset 1
+RET
+
+// End of Code Block SSC_Copy_State
+$LGCEND SSC_Copy_State
+
+// Beginning of Code Block HBW_Copy_State
+$LGCMOD HBW_Copy_State
+
+// Rung HBW_Copy_State#1
+// Offset 0
+COPY 0x1 "4 0x0 X0 MI200 1 0x0 X1 MI201 1 0x0 X2 MI202 1 0x0 X3 MI203 1 0x0 X4 MI204 1 0x0 X10 MI210 1 0x0 X11 MI211 1 0x0 MC5 C5 1 0x0 MC6 C6 1 0x0 MC110 C110 1 0x0 MC111 C111 1 0x0 MC112 C112 1 0x0 MC113 C113 1 0x0 MC114 C114 1 0x0 MC115 C115 1 0x0 MC116 C116 1"
+
+// Rung HBW_Copy_State#2
+// Offset 36
+RET
+
+// End of Code Block HBW_Copy_State
+$LGCEND HBW_Copy_State
+
+// Beginning of Code Block $Main
+$PRGRM $Main
+
+// Rung $Main#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"Mini Factory Fall 2022 Project For CS 404/504, ME404/504 "
+"PLC Programming for Automation<br>Date 10/19/22"
+#END
+
+STR ST1
+CALL HBW_Copy_State 0x1 DST511 "3" "3"
+
+// Rung $Main#2
+// Offset 8
+#BEGIN FMT_COMMENT 
+"Mini Factory Fall 2022 Project For CS 404/504, ME404/504 "
+"PLC Programming for Automation<br>Date 10/19/22"
+#END
+
+STR ST1
+CALL VGR_Copy_State 0x1 DST511 "3" "3"
+
+// Rung $Main#3
+// Offset 16
+#BEGIN FMT_COMMENT 
+"Run HBW_Program"
+#END
+
+STR ST1
+RUN HBW_Program
+
+// Rung $Main#4
+// Offset 19
+#BEGIN FMT_COMMENT 
+"Run VGR_Program"
+#END
+
+STR ST1
+RUN VGR_Program
+
+// Rung $Main#5
+// Offset 22
+#BEGIN FMT_COMMENT 
+"Run MPO_Program"
+#END
+
+STR ST1
+RUN MPO_Program
+
+// Rung $Main#6
+// Offset 25
+#BEGIN FMT_COMMENT 
+"Run SSC_Program"
+#END
+
+STR ST1
+RUN SSC_Program
+
+// Rung $Main#7
+// Offset 28
+#BEGIN FMT_COMMENT 
+"Run SLD_Program"
+#END
+
+STR ST1
+RUN SLD_Program
+
+// Rung $Main#8
+// Offset 31
+#BEGIN FMT_COMMENT 
+"Run VGR_Program"
+#END
+
+STR ST1
+RUN VGR_Program
+
+// Rung $Main#9
+// Offset 34
+NOP
+
+// End of Code Block $Main
+$PGMEND $Main
+
+// Beginning of Code Block HBW_Program
+$PRGRM HBW_Program
+
+// Rung HBW_Program#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"HBW Program"
+#END
+
+SG HBW_Program.S0
+
+// Rung HBW_Program#2
+// Offset 2
+#BEGIN FMT_COMMENT 
+"testkat<br>"
+#END
+
+STR ST0
+JMP HBW_Program.S1
+
+// Rung HBW_Program#3
+// Offset 4
+#BEGIN FMT_COMMENT 
+"ESTOP"
+#END
+
+STR C6
+JMP HBW_Program.S13
+
+// Rung HBW_Program#4
+// Offset 6
+STR C110
+JMP HBW_Program.S2
+
+// Rung HBW_Program#5
+// Offset 8
+STR C111
+JMP HBW_Program.S3
+
+// Rung HBW_Program#6
+// Offset 10
+STR C112
+JMP HBW_Program.S4
+
+// Rung HBW_Program#7
+// Offset 12
+STR C113
+JMP HBW_Program.S5
+
+// Rung HBW_Program#8
+// Offset 14
+STR C114
+JMP HBW_Program.S6
+
+// Rung HBW_Program#9
+// Offset 16
+STR C115
+JMP HBW_Program.S7
+
+// Rung HBW_Program#10
+// Offset 18
+STR C116
+JMP HBW_Program.S8
+
+// Rung HBW_Program#11
+// Offset 20
+STR C117
+JMP HBW_Program.S9
+
+// Rung HBW_Program#12
+// Offset 22
+#BEGIN FMT_COMMENT 
+"Jump To Auto"
+#END
+
+STR C5
+JMP HBW_Program.S10
+
+// Rung HBW_Program#13
+// Offset 24
+HSCNT @HBW_Encoder_X $HBW_Encoder_X X9 X8 X0 ST1023 ST1023 DST511
+
+// Rung HBW_Program#14
+// Offset 35
+HSCNT @HBW_Encoder_Z $HBW_Encoder_Z X6 X7 X3 ST1023 ST1023 DST511
+
+// Rung HBW_Program#15
+// Offset 46
+#BEGIN FMT_COMMENT 
+"ESTOP MODE"
+#END
+
+SG HBW_Program.S13
+
+// Rung HBW_Program#16
+// Offset 48
+STRN C6
+JMP HBW_Program.S0
+
+// Rung HBW_Program#17
+// Offset 50
+#BEGIN FMT_COMMENT 
+"AUTO MODE"
+#END
+
+SG HBW_Program.S10
+
+// Rung HBW_Program#18
+// Offset 52
+#BEGIN FMT_COMMENT 
+"Move To Rack Pos<br>"
+#END
+
+STR ST1
+ANDLT $HBW_Encoder_X.Acc 7564
+PWMOUT @HBW_PWM_M2 $HBW_PWM_M2 Y81 200 50
+OUT Y50
+
+// Rung HBW_Program#19
+// Offset 72
+STR ST1
+ANDLT $HBW_Encoder_Z.Acc 3187
+PWMOUT @HBW_PWM_M3 $HBW_PWM_M3 Y82 200 50
+OUT Y4
+
+// Rung HBW_Program#20
+// Offset 92
+STRGE $HBW_Encoder_X.Acc 7564
+ANDGE $HBW_Encoder_Z.Acc 3187
+JMP HBW_Program.S12
+
+// Rung HBW_Program#21
+// Offset 101
+#BEGIN FMT_COMMENT 
+"In Position, Move Cantever In"
+#END
+
+SG HBW_Program.S12
+
+// Rung HBW_Program#22
+// Offset 103
+STR ST1
+ANDN X10
+PWMOUT @HBW_PWM_M4 $HBW_PWM_M4 Y83 200 50
+OUT Y6
+
+// Rung HBW_Program#23
+// Offset 120
+STR X10
+JMP HBW_Program.S14
+
+// Rung HBW_Program#24
+// Offset 122
+#BEGIN FMT_COMMENT 
+"Lift Pallet"
+#END
+
+SG HBW_Program.S14
+
+// Rung HBW_Program#25
+// Offset 124
+STR ST1
+ANDGT $HBW_Encoder_Z.Acc 3000
+PWMOUT @HBW_PWM_M3 $HBW_PWM_M3 Y82 200 50
+OUT Y5
+
+// Rung HBW_Program#26
+// Offset 144
+STRLE $HBW_Encoder_Z.Acc 3000
+JMP HBW_Program.S15
+
+// Rung HBW_Program#27
+// Offset 149
+#BEGIN FMT_COMMENT 
+"Retract"
+#END
+
+SG HBW_Program.S15
+
+// Rung HBW_Program#28
+// Offset 151
+STR ST1
+ANDN X11
+PWMOUT @HBW_PWM_M4 $HBW_PWM_M4 Y83 200 50
+OUT Y7
+
+// Rung HBW_Program#29
+// Offset 168
+STR X11
+JMP HBW_Program.S0
+
+// Rung HBW_Program#30
+// Offset 170
+#BEGIN FMT_COMMENT 
+"RESET STAGE"
+#END
+
+SG HBW_Program.S1
+
+// Rung HBW_Program#31
+// Offset 172
+STR ST1
+ANDN X11
+PWMOUT @HBW_PWM_M4 $HBW_PWM_M4 Y83 200 50
+OUT Y7
+
+// Rung HBW_Program#32
+// Offset 189
+STR X11
+SET C2
+
+// Rung HBW_Program#33
+// Offset 191
+STR C2
+ANDN X3
+PWMOUT @HBW_PWM_M3 $HBW_PWM_M3 Y82 200 50
+OUT Y5
+
+// Rung HBW_Program#34
+// Offset 208
+STR C2
+ANDN X0
+PWMOUT @HBW_PWM_M2 $HBW_PWM_M2 Y81 200 50
+OUT Y51
+
+// Rung HBW_Program#35
+// Offset 225
+STR X0
+AND X3
+RST C2
+RSTCT CT1
+RSTCT CT2
+RSTCT CT3
+JMP HBW_Program.S0
+
+// Rung HBW_Program#36
+// Offset 232
+SG HBW_Program.S11
+
+// Rung HBW_Program#37
+// Offset 234
+STR ST1
+ANDPDPF
+OUT C405
+
+// Rung HBW_Program#38
+// Offset 237
+STRN CT0.Done
+OUT Y4
+
+// Rung HBW_Program#39
+// Offset 239
+STR X6
+ANDN CT0.Done
+STR C405
+CNT CT0 V400
+
+// Rung HBW_Program#40
+// Offset 244
+STR ST1
+PWMOUT @HBW_PWM_M3 $HBW_PWM_M3 Y82 200 50
+
+// Rung HBW_Program#41
+// Offset 259
+STR CT0.Done
+JMP HBW_Program.S0
+
+// Rung HBW_Program#42
+// Offset 261
+#BEGIN FMT_COMMENT 
+"CANTELEVER IN"
+#END
+
+SG HBW_Program.S2
+
+// Rung HBW_Program#43
+// Offset 263
+STR ST1
+PWMOUT @HBW_PWM_M4 $HBW_PWM_M4 Y83 200 50
+
+// Rung HBW_Program#44
+// Offset 278
+STRN X10
+OUT Y6
+
+// Rung HBW_Program#45
+// Offset 280
+STR X10
+ORND C110
+JMP HBW_Program.S0
+
+// Rung HBW_Program#46
+// Offset 284
+#BEGIN FMT_COMMENT 
+"CANTELEVER OUT<br>"
+#END
+
+SG HBW_Program.S3
+
+// Rung HBW_Program#47
+// Offset 286
+STR ST1
+PWMOUT @HBW_PWM_M4 $HBW_PWM_M4 Y83 200 50
+
+// Rung HBW_Program#48
+// Offset 301
+STRN X11
+OUT Y7
+
+// Rung HBW_Program#49
+// Offset 303
+STR X11
+ORND C111
+JMP HBW_Program.S0
+
+// Rung HBW_Program#50
+// Offset 307
+SG HBW_Program.S4
+
+// Rung HBW_Program#51
+// Offset 309
+STR ST1
+PWMOUT @HBW_PWM_M2 $HBW_PWM_M2 Y81 200 50
+
+// Rung HBW_Program#52
+// Offset 324
+STRN X0
+OUT Y51
+
+// Rung HBW_Program#53
+// Offset 326
+STR X0
+ORND C112
+JMP HBW_Program.S0
+
+// Rung HBW_Program#54
+// Offset 330
+SG HBW_Program.S5
+
+// Rung HBW_Program#55
+// Offset 332
+STR ST1
+PWMOUT @HBW_PWM_M2 $HBW_PWM_M2 Y81 200 50
+
+// Rung HBW_Program#56
+// Offset 347
+STR ST1
+OUT Y50
+
+// Rung HBW_Program#57
+// Offset 349
+STRND C113
+JMP HBW_Program.S0
+
+// Rung HBW_Program#58
+// Offset 352
+SG HBW_Program.S6
+
+// Rung HBW_Program#59
+// Offset 354
+STR ST1
+PWMOUT @HBW_PWM_M3 $HBW_PWM_M3 Y82 200 50
+
+// Rung HBW_Program#60
+// Offset 369
+STRN X3
+OUT Y5
+
+// Rung HBW_Program#61
+// Offset 371
+STRND C114
+OR X3
+JMP HBW_Program.S0
+
+// Rung HBW_Program#62
+// Offset 375
+SG HBW_Program.S7
+
+// Rung HBW_Program#63
+// Offset 377
+STR ST1
+PWMOUT @HBW_PWM_M3 $HBW_PWM_M3 Y82 200 50
+
+// Rung HBW_Program#64
+// Offset 392
+STR ST1
+OUT Y4
+
+// Rung HBW_Program#65
+// Offset 394
+STRND C115
+JMP HBW_Program.S0
+
+// Rung HBW_Program#66
+// Offset 397
+SG HBW_Program.S8
+
+// Rung HBW_Program#67
+// Offset 399
+STR ST1
+PWMOUT @HBW_PWM_M1 $HBW_PWM_M1 Y80 200 50
+
+// Rung HBW_Program#68
+// Offset 414
+STR ST1
+OUT Y48
+
+// Rung HBW_Program#69
+// Offset 416
+STRND C116
+JMP HBW_Program.S0
+
+// Rung HBW_Program#70
+// Offset 419
+SG HBW_Program.S9
+
+// Rung HBW_Program#71
+// Offset 421
+STR ST1
+PWMOUT @HBW_PWM_M1 $HBW_PWM_M1 Y80 200 50
+
+// Rung HBW_Program#72
+// Offset 436
+STR ST1
+OUT Y49
+
+// Rung HBW_Program#73
+// Offset 438
+STRND C117
+JMP HBW_Program.S0
+
+// End of Code Block HBW_Program
+$PGMEND HBW_Program
+
+// Beginning of Code Block VGR_Program
+$PRGRM VGR_Program
+
+// Rung VGR_Program#1
+// Offset 0
+SG VGR_Program.S0
+
+// Rung VGR_Program#2
+// Offset 2
+STR ST1
+CALL VGR_Copy_State 0x1 DST511 "3" "3"
+
+// Rung VGR_Program#3
+// Offset 10
+STR ST1
+DUPBOOL
+STR C410
+ANDN C409
+STRN C410
+AND C409
+ORSTR
+ANDSTR
+PWMOUT @VGR_PWM_M3 $VGR_PWM_M3 Y90 500 100
+POPBOOL
+DUPBOOL
+AND C410
+OUT Y27
+POPBOOL
+AND C409
+OUT Y26
+
+// Rung VGR_Program#4
+// Offset 39
+STR ST1
+DUPBOOL
+STR C408
+ANDN C411
+STRN C408
+AND C411
+ORSTR
+ANDSTR
+PWMOUT @VGR_PWM_M2 $VGR_PWM_M2 Y89 500 100
+POPBOOL
+DUPBOOL
+AND C408
+OUT Y24
+POPBOOL
+AND C411
+OUT Y25
+
+// Rung VGR_Program#5
+// Offset 68
+STR ST1
+DUPBOOL
+STR C406
+ANDN C407
+STRN C406
+AND C407
+ORSTR
+ANDSTR
+PWMOUT @VGR_PWM_M1 $VGR_PWM_M1 Y88 500 100
+POPBOOL
+DUPBOOL
+AND C406
+OUT Y23
+POPBOOL
+AND C407
+OUT Y22
+
+// Rung VGR_Program#6
+// Offset 97
+STR C452
+JMP VGR_Program.S1
+
+// Rung VGR_Program#7
+// Offset 99
+SG VGR_Program.S1
+
+// Rung VGR_Program#8
+// Offset 101
+STRN C452
+JMP VGR_Program.S0
+
+// Rung VGR_Program#9
+// Offset 103
+STR ST1
+CALL VGR_Copy_State 0x1 DST511 "3" "3"
+
+// Rung VGR_Program#10
+// Offset 111
+STRN X25
+PWMOUT @VGR_PWM_M1 $VGR_PWM_M1 Y88 500 100
+OUT Y22
+
+// Rung VGR_Program#11
+// Offset 127
+STRN X26
+PWMOUT @VGR_PWM_M2 $VGR_PWM_M2 Y89 500 100
+OUT Y24
+
+// Rung VGR_Program#12
+// Offset 143
+STRN X27
+PWMOUT @VGR_PWM_M3 $VGR_PWM_M3 Y90 500 100
+OUT Y26
+
+// Rung VGR_Program#13
+// Offset 159
+STR X27
+OUT $VGR_Encoder_Rot.ResetLevel
+
+// Rung VGR_Program#14
+// Offset 161
+STR X26
+OUT $VGR_Encoder_X.ResetLevel
+
+// Rung VGR_Program#15
+// Offset 163
+STR X25
+OUT $VGR_Encoder_Y.ResetLevel
+
+// Rung VGR_Program#16
+// Offset 165
+STR X25
+AND X26
+AND X27
+JMP VGR_Program.S2
+
+// Rung VGR_Program#17
+// Offset 169
+SG VGR_Program.S2
+
+// Rung VGR_Program#18
+// Offset 171
+STR ST1
+CALL VGR_Copy_State 0x1 DST511 "3" "3"
+
+// Rung VGR_Program#19
+// Offset 179
+STRN C452
+JMP VGR_Program.S0
+
+// Rung VGR_Program#20
+// Offset 181
+STR ST1
+OUT $VGR_Encoder_Rot.EnableCapture
+
+// Rung VGR_Program#21
+// Offset 183
+STR ST1
+OUT $VGR_Encoder_X.EnableCapture
+
+// Rung VGR_Program#22
+// Offset 185
+STR ST1
+OUT $VGR_Encoder_Y.EnableCapture
+
+// Rung VGR_Program#23
+// Offset 187
+STR ST1
+OUT $VGR_Encoder_Rot.EnableCapture
+
+// Rung VGR_Program#24
+// Offset 189
+STR ST1
+OUT $VGR_Encoder_X.EnableCapture
+
+// Rung VGR_Program#25
+// Offset 191
+STR ST1
+OUT $VGR_Encoder_Y.EnableCapture
+
+// Rung VGR_Program#26
+// Offset 193
+STRGE 5340 $VGR_Encoder_Rot.Acc
+ANDGE 5360 $VGR_Encoder_Rot.Acc
+PWMOUT @VGR_PWM_M3 $VGR_PWM_M3 Y90 500 100
+OUT Y27
+
+// Rung VGR_Program#27
+// Offset 216
+STRGE 725 $VGR_Encoder_X.Acc
+PWMOUT @VGR_PWM_M2 $VGR_PWM_M2 Y89 500 100
+OUT Y25
+
+// Rung VGR_Program#28
+// Offset 235
+STRN X2
+JMP VGR_Program.S3
+
+// Rung VGR_Program#29
+// Offset 237
+SG VGR_Program.S3
+
+// Rung VGR_Program#30
+// Offset 239
+STR ST1
+CALL VGR_Copy_State 0x1 DST511 "3" "3"
+
+// Rung VGR_Program#31
+// Offset 247
+STRN C452
+JMP VGR_Program.S0
+
+// Rung VGR_Program#32
+// Offset 249
+STRGE 600 $VGR_Encoder_Y.Acc
+PWMOUT @VGR_PWM_M1 $VGR_PWM_M1 Y88 500 100
+OUT Y23
+
+// Rung VGR_Program#33
+// Offset 268
+STRGE $VGR_Encoder_Y.Acc 600
+JMP VGR_Program.S4
+
+// Rung VGR_Program#34
+// Offset 273
+SG VGR_Program.S4
+
+// Rung VGR_Program#35
+// Offset 275
+STR ST1
+CALL VGR_Copy_State 0x1 DST511 "3" "3"
+
+// Rung VGR_Program#36
+// Offset 283
+STRN C452
+JMP VGR_Program.S0
+
+// Rung VGR_Program#37
+// Offset 285
+STR ST1
+OUT Y28
+
+// Rung VGR_Program#38
+// Offset 287
+STR Y28
+JMP VGR_Program.S5
+
+// Rung VGR_Program#39
+// Offset 289
+SG VGR_Program.S5
+
+// Rung VGR_Program#40
+// Offset 291
+STR ST1
+CALL VGR_Copy_State 0x1 DST511 "3" "3"
+
+// Rung VGR_Program#41
+// Offset 299
+STRN C452
+JMP VGR_Program.S0
+
+// Rung VGR_Program#42
+// Offset 301
+STR ST1
+OUT Y28
+
+// Rung VGR_Program#43
+// Offset 303
+STR ST1
+OUT Y29
+
+// Rung VGR_Program#44
+// Offset 305
+STR Y29
+JMP VGR_Program.S6
+
+// Rung VGR_Program#45
+// Offset 307
+SG VGR_Program.S6
+
+// Rung VGR_Program#46
+// Offset 309
+STR ST1
+CALL VGR_Copy_State 0x1 DST511 "3" "3"
+
+// Rung VGR_Program#47
+// Offset 317
+STRN C452
+JMP VGR_Program.S0
+
+// Rung VGR_Program#48
+// Offset 319
+STR ST1
+OUT Y28
+OUT Y29
+
+// Rung VGR_Program#49
+// Offset 322
+STRN X25
+PWMOUT @VGR_PWM_M1 $VGR_PWM_M1 Y88 500 100
+OUT Y22
+
+// Rung VGR_Program#50
+// Offset 338
+STR X25
+JMP VGR_Program.S7
+
+// Rung VGR_Program#51
+// Offset 340
+SG VGR_Program.S7
+
+// Rung VGR_Program#52
+// Offset 342
+STR ST1
+CALL VGR_Copy_State 0x1 DST511 "3" "3"
+
+// Rung VGR_Program#53
+// Offset 350
+STRN C452
+JMP VGR_Program.S0
+
+// Rung VGR_Program#54
+// Offset 352
+STR ST1
+OUT Y28
+OUT Y29
+
+// Rung VGR_Program#55
+// Offset 355
+STR ST1
+MOVE 1 C299
+
+// Rung VGR_Program#56
+// Offset 358
+STRN X26
+PWMOUT @VGR_PWM_M2 $VGR_PWM_M2 Y89 500 100
+OUT Y24
+
+// Rung VGR_Program#57
+// Offset 374
+STR X26
+JMP VGR_Program.S8
+
+// Rung VGR_Program#58
+// Offset 376
+SG VGR_Program.S8
+
+// Rung VGR_Program#59
+// Offset 378
+STR ST1
+CALL VGR_Copy_State 0x1 DST511 "3" "3"
+
+// Rung VGR_Program#60
+// Offset 386
+STRN C452
+JMP VGR_Program.S0
+
+// Rung VGR_Program#61
+// Offset 388
+STR ST1
+OUT Y28
+OUT Y29
+
+// Rung VGR_Program#62
+// Offset 391
+STRN X27
+ANDGE $VGR_Encoder_Rot.Acc 3567
+ANDGE $VGR_Encoder_Rot.Acc 3557
+PWMOUT @VGR_PWM_M3 $VGR_PWM_M3 Y90 500 100
+OUT Y26
+
+// Rung VGR_Program#63
+// Offset 415
+STRGE 3404 $VGR_Encoder_X.Acc
+PWMOUT @VGR_PWM_M2 $VGR_PWM_M2 Y89 500 100
+OUT Y25
+
+// Rung VGR_Program#64
+// Offset 434
+STRGE $VGR_Encoder_X.Acc 3404
+JMP VGR_Program.S9
+
+// Rung VGR_Program#65
+// Offset 439
+SG VGR_Program.S9
+
+// Rung VGR_Program#66
+// Offset 441
+STR ST1
+CALL VGR_Copy_State 0x1 DST511 "3" "3"
+
+// Rung VGR_Program#67
+// Offset 449
+STRN C452
+JMP VGR_Program.S0
+
+// Rung VGR_Program#68
+// Offset 451
+STR ST1
+OUT Y28
+OUT Y29
+
+// Rung VGR_Program#69
+// Offset 454
+STRGE 2026 $VGR_Encoder_Y.Acc
+PWMOUT @VGR_PWM_M1 $VGR_PWM_M1 Y88 500 100
+OUT Y23
+
+// Rung VGR_Program#70
+// Offset 473
+STRGE $VGR_Encoder_Y.Acc 2026
+JMP VGR_Program.S10
+
+// Rung VGR_Program#71
+// Offset 478
+SG VGR_Program.S10
+
+// Rung VGR_Program#72
+// Offset 480
+STR ST1
+CALL VGR_Copy_State 0x1 DST511 "3" "3"
+
+// Rung VGR_Program#73
+// Offset 488
+STRN C452
+JMP VGR_Program.S0
+
+// Rung VGR_Program#74
+// Offset 490
+STR ST2
+OUT Y29
+
+// Rung VGR_Program#75
+// Offset 492
+STRN X25
+ANDN Y29
+PWMOUT @VGR_PWM_M1 $VGR_PWM_M1 Y88 500 100
+OUT Y22
+
+// Rung VGR_Program#76
+// Offset 509
+STRN X26
+PWMOUT @VGR_PWM_M2 $VGR_PWM_M2 Y89 500 100
+OUT Y24
+
+// Rung VGR_Program#77
+// Offset 525
+STR ST2
+JMP VGR_Program.S11
+
+// Rung VGR_Program#78
+// Offset 527
+STR X25
+AND X26
+JMP VGR_Program.S2
+
+// Rung VGR_Program#79
+// Offset 530
+SG VGR_Program.S11
+
+// Rung VGR_Program#80
+// Offset 532
+STRN X25
+PWMOUT @VGR_PWM_M1 $VGR_PWM_M1 Y88 500 100
+OUT Y22
+
+// Rung VGR_Program#81
+// Offset 548
+STRN X26
+PWMOUT @VGR_PWM_M2 $VGR_PWM_M2 Y89 500 100
+OUT Y24
+
+// Rung VGR_Program#82
+// Offset 564
+STRN X27
+PWMOUT @VGR_PWM_M3 $VGR_PWM_M3 Y90 500 100
+OUT Y26
+
+// Rung VGR_Program#83
+// Offset 580
+STR X27
+OUT $VGR_Encoder_Rot.ResetLevel
+
+// Rung VGR_Program#84
+// Offset 582
+STR X26
+OUT $VGR_Encoder_X.ResetLevel
+
+// Rung VGR_Program#85
+// Offset 584
+STR X25
+OUT $VGR_Encoder_Y.ResetLevel
+
+// Rung VGR_Program#86
+// Offset 586
+STR ST1
+MOVE 1 C700
+
+// Rung VGR_Program#87
+// Offset 589
+NOP
+
+// End of Code Block VGR_Program
+$PGMEND VGR_Program
+
+// Beginning of Code Block MPO_Program
+$PRGRM MPO_Program
+
+// Rung MPO_Program#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"MPO Program"
+#END
+
+NOP
+
+// End of Code Block MPO_Program
+$PGMEND MPO_Program
+
+// Beginning of Code Block SLD_Program
+$PRGRM SLD_Program
+
+// Rung SLD_Program#1
+// Offset 0
+SG SLD_Program.S0
+
+// Rung SLD_Program#2
+// Offset 2
+STR ST1
+CALL SLD_Copy_State 0x1 DST511 "3" "3"
+
+// Rung SLD_Program#3
+// Offset 10
+STR C1616
+OUT Y30
+
+// Rung SLD_Program#4
+// Offset 12
+STR C1617
+OUT Y31
+
+// Rung SLD_Program#5
+// Offset 14
+STR C1618
+OUT Y32
+
+// Rung SLD_Program#6
+// Offset 16
+STR C1619
+OUT Y33
+
+// Rung SLD_Program#7
+// Offset 18
+STR C1620
+OUT Y34
+
+// Rung SLD_Program#8
+// Offset 20
+STR C1621
+JMP SLD_Program.S1
+
+// Rung SLD_Program#9
+// Offset 22
+SG SLD_Program.S1
+
+// Rung SLD_Program#10
+// Offset 24
+STR C1666
+JMP SLD_Program.S0
+
+// Rung SLD_Program#11
+// Offset 26
+STR ST1
+CALL SLD_Copy_State 0x1 DST511 "3" "3"
+
+// Rung SLD_Program#12
+// Offset 34
+STRN C1621
+JMP SLD_Program.S0
+
+// Rung SLD_Program#13
+// Offset 36
+STRN X35
+OFFDTMR T200 1750 C1622
+
+// Rung SLD_Program#14
+// Offset 40
+STR C1622
+OUT Y30
+
+// Rung SLD_Program#15
+// Offset 42
+STRND Y30
+JMP SLD_Program.S2
+
+// Rung SLD_Program#16
+// Offset 45
+STR C1626
+OUT Y47
+
+// Rung SLD_Program#17
+// Offset 47
+SG SLD_Program.S2
+
+// Rung SLD_Program#18
+// Offset 49
+STR C1666
+JMP SLD_Program.S0
+
+// Rung SLD_Program#19
+// Offset 51
+STR C1626
+OUT Y47
+
+// Rung SLD_Program#20
+// Offset 53
+STR ST1
+CALL SLD_Copy_State 0x1 DST511 "3" "3"
+
+// Rung SLD_Program#21
+// Offset 61
+STRN C1621
+JMP SLD_Program.S0
+
+// Rung SLD_Program#22
+// Offset 63
+STR ST1
+MOVE WX0 V3216
+
+// Rung SLD_Program#23
+// Offset 66
+STRLE WX0 13333
+JMP SLD_Program.S3
+
+// Rung SLD_Program#24
+// Offset 71
+STRGE WX0 16000
+ANDLE WX0 20999
+JMP SLD_Program.S4
+
+// Rung SLD_Program#25
+// Offset 80
+STRGE WX0 21000
+ANDLE WX0 24000
+JMP SLD_Program.S5
+
+// Rung SLD_Program#26
+// Offset 89
+STRGE WX0 24001
+JMP SLD_Program.S1
+
+// Rung SLD_Program#27
+// Offset 94
+SG SLD_Program.S3
+
+// Rung SLD_Program#28
+// Offset 96
+STR C1666
+JMP SLD_Program.S0
+
+// Rung SLD_Program#29
+// Offset 98
+STR ST1
+CALL SLD_Copy_State 0x1 DST511 "3" "3"
+
+// Rung SLD_Program#30
+// Offset 106
+STR ST1
+OUT Y31
+
+// Rung SLD_Program#31
+// Offset 108
+STR Y31
+TMR T216 1900
+
+// Rung SLD_Program#32
+// Offset 111
+STR T216.Timing
+ANDN T216.Done
+OUT Y30
+
+// Rung SLD_Program#33
+// Offset 114
+STR T216.Done
+OUT Y32
+
+// Rung SLD_Program#34
+// Offset 116
+STRN C1621
+JMP SLD_Program.S0
+
+// Rung SLD_Program#35
+// Offset 118
+STR Y32
+ONDTMR T217 125 C1623
+
+// Rung SLD_Program#36
+// Offset 122
+STR C1623
+JMP SLD_Program.S1
+
+// Rung SLD_Program#37
+// Offset 124
+SG SLD_Program.S4
+
+// Rung SLD_Program#38
+// Offset 126
+STR C1666
+JMP SLD_Program.S0
+
+// Rung SLD_Program#39
+// Offset 128
+STR ST1
+CALL SLD_Copy_State 0x1 DST511 "3" "3"
+
+// Rung SLD_Program#40
+// Offset 136
+STR ST1
+OUT Y31
+
+// Rung SLD_Program#41
+// Offset 138
+STR Y31
+TMR T218 2850
+
+// Rung SLD_Program#42
+// Offset 141
+STR T218.Timing
+ANDN T218.Done
+OUT Y30
+
+// Rung SLD_Program#43
+// Offset 144
+STR T218.Done
+OUT Y33
+
+// Rung SLD_Program#44
+// Offset 146
+STR Y33
+ONDTMR T219 125 C1624
+
+// Rung SLD_Program#45
+// Offset 150
+STR C1624
+JMP SLD_Program.S1
+
+// Rung SLD_Program#46
+// Offset 152
+STRN C1621
+JMP SLD_Program.S0
+
+// Rung SLD_Program#47
+// Offset 154
+SG SLD_Program.S5
+
+// Rung SLD_Program#48
+// Offset 156
+STR C1666
+JMP SLD_Program.S0
+
+// Rung SLD_Program#49
+// Offset 158
+STR ST1
+CALL SLD_Copy_State 0x1 DST511 "3" "3"
+
+// Rung SLD_Program#50
+// Offset 166
+STR ST1
+OUT Y31
+
+// Rung SLD_Program#51
+// Offset 168
+STR Y31
+TMR T220 3800
+
+// Rung SLD_Program#52
+// Offset 171
+STR T220.Timing
+ANDN T220.Done
+OUT Y30
+
+// Rung SLD_Program#53
+// Offset 174
+STR T220.Done
+OUT Y34
+
+// Rung SLD_Program#54
+// Offset 176
+STR Y34
+ONDTMR T221 125 C1625
+
+// Rung SLD_Program#55
+// Offset 180
+STR C1625
+JMP SLD_Program.S1
+
+// Rung SLD_Program#56
+// Offset 182
+STRN C1621
+JMP SLD_Program.S0
+
+// End of Code Block SLD_Program
+$PGMEND SLD_Program
+
+// Beginning of Code Block SSC_Program
+$PRGRM SSC_Program
+
+// Rung SSC_Program#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+"SSC Program"
+#END
+
+NOP
+
+// End of Code Block SSC_Program
+$PGMEND SSC_Program
+
+#BEGIN ELEMENT_DOC
+"X0","FLAGS = REST_READONLY","HBW_I1","","HBW - I1 = Reference switch horizontal axis -  IX_HBW_RefSwitchHor izontalAxis_I1"
+"X1","FLAGS = REST_READONLY","HBW_I2","","HBW - I2 = Light barrier inside -  IX_HBW_LightBarrierIn side_I2"
+"X2","FLAGS = REST_READONLY","HBW_I3","","HBW - I3 = Light barrier outside -  IX_HBW_LightBarrierO utside_I3"
+"X3","FLAGS = REST_READONLY","HBW_I4","","HBW - I4 = Reference switch vertical axis -  IX_HBW_RefSwitchVer ticalAxis_I4"
+"X4","FLAGS = REST_READONLY","HBW_A1","","HBW - A1 = Trail sensor (signal 1, lower) -  IX_HBW_TrailSensor1L ower_A1"
+"X5","FLAGS = REST_READONLY","HBW_A2","","HBW - A2 = Trail sensor (signal 2, upper) -  IX_HBW_TrailSensor2 Upper_A2"
+"X6","FLAGS = REST_READONLY","HBW_B3","","HBW - B3 = Encoder vertical axis imulse 1 -  IX_HBW_EncoderVerti calAxisImp1_B3"
+"X7","FLAGS = REST_READONLY","HBW_B4","","HBW - B4 = Encoder vertical axis imulse 2 -  IX_HBW_EncoderVerti calAxisImp2_B4"
+"X8","FLAGS = REST_READONLY","HBW_B1","","HBW - B1 = Encoder horizontal axis imulse 1 -  IX_HBW_EncoderHoriz ontalAxisImp1_B1"
+"X9","FLAGS = REST_READONLY","HBW_B2","","HBW - B2 = Encoder horizontal axis imulse 2 -  IX_HBW_EncoderHoriz ontalAxisImp2_B2"
+"X10","FLAGS = REST_READONLY","HBW_I5","","HBW - I5 = Reference switch cantilever front -  IX_HBW_SwitchCantile verFront_I5"
+"X11","FLAGS = REST_READONLY","HBW_I6","","HBW - I6 = Reference switch cantilever back -  IX_HBW_SwitchCantile verBack_I6"
+"X12","FLAGS = REST_READONLY","MPO_I1","","MPO - I1 = Reference switch turn-table (position vacuum) -  IX_MPO_RefSwitchTur nTable_PosVac_I1"
+"X13","FLAGS = REST_READONLY","MPO_I2","","MPO - I2 = Reference switch turn-table (position belt) -  IX_MPO_RefSwitchTur nTable_PosBelt_I2"
+"X14","FLAGS = REST_READONLY","MPO_I3","","MPO - I3 = Light barrier end of conveyor belt -  IX_MPO_LightBarrierEn dOfConBelt_I3"
+"X15","FLAGS = REST_READONLY","MPO_I4","","MPO - I4 = Reference switch turn-table (position saw) -  IX_MPO_RefSwitchTur nTable_PosSaw_I4"
+"X16","FLAGS = REST_READONLY","MPO_I5","","MPO - I5 = Reference switch vacuum (position turn-table) -  IX_MPO_RefSwitchVac _PosTurnTable_I5"
+"X17","FLAGS = REST_READONLY","MPO_I6","","MPO - I6 = Reference switch oven feeder inside -  IX_MPO_RefSwitchOv enFeederInside_I6"
+"X18","FLAGS = REST_READONLY","MPO_I7","","MPO - I7 = Reference switch oven feeder outside -  IX_MPO_RefSwitchOv enFeederOutside_I7"
+"X19","FLAGS = REST_READONLY","MPO_I8","","MPO - I8 = Reference switch vacuum (position oven) -  IX_MPO_RefSwitchVac _PosOven_I8"
+"X24","FLAGS = REST_READONLY","MPO_I9","","MPO - I9 = Light barrier oven -  IX_MPO_LightBarrierO v en_I9"
+"X25","FLAGS = REST_READONLY","VGR_I1","","VGR - I1 = Reference switch vertical axis -  IX_VGR_RefSwitchVert icalAxis_I1"
+"X26","FLAGS = REST_READONLY","VGR_I2","","VGR - I2 = Reference switch horizontal axis -  IX_VGR_RefSwitchHori zontalAxis_I2"
+"X27","FLAGS = REST_READONLY","VGR_I3","","VGR - I3 = Reference switch rotate -  IX_VGR_RefSwitchRot ate_I3"
+"X28","FLAGS = REST_READONLY","VGR_B1","","VGR - B1 = Encoder vertical axis imulse 1 -  IX_VGR_EncoderVertic alAxisImp1_B1"
+"X29","FLAGS = REST_READONLY","VGR_B2","","VGR - B2 = Encoder vertical axis imulse 2 -  IX_VGR_EncoderVertic alAxisImp2_B2"
+"X30","FLAGS = REST_READONLY","VGR_B3","","VGR - B3 = Encoder horizontal axis imulse 1 -  IX_VGR_EncoderHoriz ontalAxisImp1_B3"
+"X31","FLAGS = REST_READONLY","VGR_B4","","VGR - B4 = Encoder horizontal axis imulse 2 -  IX_VGR_EncoderHoriz ontalAxisImp2_B4"
+"X32","FLAGS = REST_READONLY","VGR_B5","","VGR - B5 = Encoder rotate impulse 1 -  IX_VGR_EncoderRotat eImp1_B5"
+"X33","FLAGS = REST_READONLY","VGR_B6","","VGR - B6 = Encoder rotate impulse 2 -  IX_VGR_EncoderRotat eImp2_B6"
+"X34","FLAGS = REST_READONLY","SLD_I1","","SLD - I1 = Pulse counter -  IX_SLD_PulseCounter_ I1"
+"X35","FLAGS = REST_READONLY","SLD_I2","","SLD - I2 = Light barrier inlet -  IX_SLD_LightBarrierInl e t_I2"
+"X36","FLAGS = REST_READONLY","SLD_I3","","SLD - I3 = Light barrier behind color sensor -  IX_SLD_LightBarrierBe hindColorSensor_I3"
+"X37","FLAGS = REST_READONLY","SLD_I5","","SLD - I5 = Light barrier white -  IX_SLD_LightBarrierW h ite_I5"
+"X38","FLAGS = REST_READONLY","SLD_I6","","SLD - I6 = Light barrier red -  IX_SLD_LightBarrierRe d_I6"
+"X39","FLAGS = REST_READONLY","SLD_I7","","SLD - I7 = Light barrier blue -  IX_SLD_LightBarrierBl u e_I7"
+"X40","FLAGS = REST_READONLY","SSC_I1","","SSC - I1 = Reference switch vertical axis -  IX_SSC_RefSwitchVerti calAxis_I1"
+"X41","FLAGS = REST_READONLY","SSC_I2","","SSC - I2 = Reference switch horizontal axis -  IX_SSC_RefSwitchHori zontalAxis_I2"
+"X42","FLAGS = REST_READONLY","SSC_I3","","SSC - I3 = Light barrier inlet -  IX_SSC_LightBarrierSto rage_I3"
+"X43","FLAGS = REST_READONLY","SSC_I4","","SSC - I4 = Light barrier behind color sensor -  IX_SSC_LightBarrierOu t sourcing_I4"
+"X44","FLAGS = REST_READONLY","SSC_B1","","SSC - B1 = Encoder vertical axis imulse 1 -  IX_SSC_EncoderVertic alAxisImp1_B1"
+"X45","FLAGS = REST_READONLY","SSC_B2","","SSC - B2 = Encoder vertical axis imulse 2 -  IX_SSC_EncoderVertic alAxisImp2_B2"
+"X46","FLAGS = REST_READONLY","SSC_B3","","SSC - B3 = Encoder horizontal axis imulse 1 -  IX_SSC_EncoderHorizo ntalAxisImp1_B3"
+"X47","FLAGS = REST_READONLY","SSC_B4","","SSC - B4 = Encoder horizontal axis imulse 2 -  IX_SSC_EncoderHorizo ntalAxisImp2_B4"
+"X56","FLAGS = REST_READONLY","VGR_PWM_ROTATE_1","","VGR - B5 = Encoder rotate impulse 1 -  IX_VGR_EncoderRotat eImp 1_B5"
+"X57","FLAGS = REST_READONLY","VGR_PWM_ROTATE_2","","VGR - B6 = Encoder rotate impulse 2 -  IX_VGR_EncoderRotat eImp 2_B6"
+"Y4","FLAGS = REST_READONLY","HBW_Q5","","HBW - Q5 = Motor M3 vertical axis downward -  QX_HBW_M3_Vertical AxisDownward_Q5"
+"Y5","FLAGS = REST_READONLY","HBW_Q6","","HBW - Q6 = Motor M3 vertical axis upward -  QX_HBW_M3_Vertical AxisUpward_Q6"
+"Y6","FLAGS = REST_READONLY","HBW_Q7","","HBW - Q7 = Motor M4 cantilever forward -  QX_HBW_M4_Cantilev erForward_Q7"
+"Y7","FLAGS = REST_READONLY","HBW_Q8","","HBW - Q8 = Motor M4 cantilever backward -  QX_HBW_M4_Cantilev erBackward_Q8"
+"Y15","FLAGS = REST_READONLY","MPO_Q8","","MPO - Q8 = Motor M5 vacuum towards turn- table -  QX_MPO_M5_Vacuum TowardsTurnTable_Q8"
+"Y16","FLAGS = REST_READONLY","MPO_Q9","","MPO - Q9 = Light oven -  QX_MPO_LightOven_Q 9"
+"Y17","FLAGS = REST_READONLY","MPO_Q10","","MPO - Q10 = Compressor -  QX_MPO_Compressor_ Q10"
+"Y18","FLAGS = REST_READONLY","MPO_Q11","","MPO - Q11 = Valve vacuum -  QX_MPO_ValveVacuu m_Q11"
+"Y19","FLAGS = REST_READONLY","MPO_Q12","","MPO - Q12 = Valve lowering -  QX_MPO_ValveLoweri ng_Q12"
+"Y20","FLAGS = REST_READONLY","MPO_Q13","","MPO - Q13 = Valve oven door -  QX_MPO_ValveOvenD oor_Q13"
+"Y21","FLAGS = REST_READONLY","MPO_Q14","","MPO - Q14 = Valve feeder -  QX_MPO_ValveFeeder _Q14"
+"Y22","FLAGS = REST_READONLY","VGR_Q1","","VGR - Q1 = Motor M1 vertical axis up -  QX_VGR_M1_VerticalA xisUp_Q1"
+"Y23","FLAGS = REST_READONLY","VGR_Q2","","VGR - Q2 = Motor M1 vertical axis down -  QX_VGR_M1_VerticalA xisDown_Q2"
+"Y24","FLAGS = REST_READONLY","VGR_Q3","","VGR - Q3 = Motor M2 horizontal axis backward -  QX_VGR_M2_Horizont alAxisBackward_Q3"
+"Y25","FLAGS = REST_READONLY","VGR_Q4","","VGR - Q4 = Motor M2 horizontal axis forward -  QX_VGR_M2_Horizont alAxisForward_Q4"
+"Y26","FLAGS = REST_READONLY","VGR_Q5","","VGR - Q5 = Motor M3 rotate clockwise -  QX_VGR_M3_RotateCl ockwise_Q5"
+"Y27","FLAGS = REST_READONLY","VGR_Q6","","VGR - Q6 = Motor M3 rotate counterclockwise -  QX_VGR_M3_RotateC ounterclockwise_Q6"
+"Y28","FLAGS = REST_READONLY","VGR_Q7","","VGR - Q7 = Compressor -  QX_VGR_Compressor_ Q7"
+"Y29","FLAGS = REST_READONLY","VGR_Q8","","VGR - Q8 = Valve vacuum -  QX_VGR_ValveVacuu m_Q8"
+"Y30","FLAGS = REST_READONLY","SLD_Q1","","SLD - Q1 = Motor M1conveyor belt -  QX_SLD_M1_Conveyor Belt_Q1"
+"Y31","FLAGS = REST_READONLY","SLD_Q2","","SLD - Q2 = Compressor -  QX_SLD_Compressor_ Q2"
+"Y32","FLAGS = REST_READONLY","SLD_Q3","","SLD - Q3 = Valve first ejector (white) -  QX_SLD_ValveFirstEje ctorWhite_Q3"
+"Y33","FLAGS = REST_READONLY","SLD_Q4","","SLD - Q4 = Valve second ejector (red) -  QX_SLD_ValveSecond EjectorRed_Q4"
+"Y34","FLAGS = REST_READONLY","SLD_Q5","","SLD - Q5 = Valve third ejector (blue) -  QX_SLD_ValveThirdEje ctorBlue_Q5"
+"Y35","FLAGS = REST_READONLY","SSC_Q1","","SSC - Q1 = Motor M1 vertical axis up -  QX_SSC_M1_VerticalA xisUp_Q1"
+"Y36","FLAGS = REST_READONLY","SSC_Q2","","SSC - Q2 = Motor M1 vertical axis down -  QX_SSC_M1_VerticalA xisDown_Q2"
+"Y37","FLAGS = REST_READONLY","SSC_Q3","","SSC - Q3 = Motor M2 horizontal axis backward -  QX_SSC_M2_Horizonta lAxisClockwise_Q3"
+"Y38","FLAGS = REST_READONLY","SSC_Q4","","SSC - Q4 = Motor M2 horizontal axis forward -  QX_SSC_M2_Horizonta lAxisCounterclockwise_ Q4"
+"Y39","FLAGS = REST_READONLY","SSC_Q5","","SSC - Q5 = LED Green -  QX_SSC_LED_Green_ Q5"
+"Y40","FLAGS = REST_READONLY","SSC_Q6","","SSC - Q6 = LED Yellow -  QX_SSC_LED_Yellow_ Q6"
+"Y41","FLAGS = REST_READONLY","SSC_Q7","","SSC - Q7 = LED Red -  QX_SSC_LED_Red_Q 7"
+"Y42","FLAGS = REST_READONLY","SSC_Q8","","SSC - Q8 = LED Red Online -  QX_SSC_LED_Red_O nline_Q8"
+"Y43","FLAGS = REST_READONLY","MPO_Q4","","MPO - Q4 = Motor M3 saw -  QX_MPO_M3_Saw_Q4"
+"Y44","FLAGS = REST_READONLY","MPO_Q5","","MPO - Q5 = Motor M4 oven feeder retract -  QX_MPO_M4_OvenFe ederRetract_Q5"
+"Y45","FLAGS = REST_READONLY","MPO_Q1","","MPO - Q1 = Motor M1 turn-table clockwise -  QX_MPO_M1_TurnTab leClockwise_Q1"
+"Y46","FLAGS = REST_READONLY","MPO_Q2","","MPO - Q2 = Motor M1 turn-table counterclockwise -  QX_MPO_M1_TurnTab leCounterclockwise_Q2"
+"Y47","FLAGS = REST_READONLY","MPO_Q3","","MPO - Q3 = Motor M2 conveyor belt forward -  QX_MPO_M2_Conveyo rBeltForward_Q3"
+"Y48","FLAGS = REST_READONLY","HBW_Q1","","HBW - Q1 = Motor M1 conveyor belt forward -  QX_HBW_M1_Convey orBeltForward_Q1"
+"Y49","FLAGS = REST_READONLY","HBW_Q2","","HBW - Q2 = Motor M1 conveyor belt backward -  QX_HBW_M1_Convey orBeltBackward_Q2"
+"Y50","FLAGS = REST_READONLY","HBW_Q3","","HBW - Q3 = Motor M2 horizontal towards rack -  QX_HBW_M2_Horizont alTowardsRack_Q3"
+"Y51","FLAGS = REST_READONLY","HBW_Q4","","HBW - Q4 = Motor M2 horizontal towards conveyor belt -  QX_HBW_M2_Horizont alTowardsConveyorBel t _Q4"
+"Y52","FLAGS = REST_READONLY","MPO_Q6","","MPO - Q6 = Motor M4 oven feeder extend -  QX_MPO_M4_OvenFe ederExtend_Q6"
+"Y53","FLAGS = REST_READONLY","MPO_Q7","","MPO - Q7 = Motor M5 vacuum towards oven -  QX_MPO_M5_Vacuum TowardsOven_Q7"
+"Y80","FLAGS = REST_READONLY","HBW_PWM_M1","","QW_HBW_PWM_Con veyor Belt_M1"
+"Y81","FLAGS = REST_READONLY","HBW_PWM_M2","","HBW = PWM Motor M3 vertical axis -  QW_HBW_PWM_Verti cal_ M3"
+"Y82","FLAGS = REST_READONLY","HBW_PWM_M3","","HBW  = PWM Motor M3 vertical axis -  QW_HBW_PWM_Verti calA xis_M3"
+"Y83","FLAGS = REST_READONLY","HBW_PWM_M4","","HBW  = PWM Motor M4 cantilever -  QW_HBW_PWM_Canti leve r_M4"
+"Y88","FLAGS = REST_READONLY","VGR_PWM_M1","","VGR = PWM Motor M1 vertical axis -  QW_VGR_PWM_Vertic al_ M1"
+"Y89","FLAGS = REST_READONLY","VGR_PWM_M2","","VGR = PWM Motor M2 horizontal axis -  QW_VGR_PWM_Horiz ontal _M2"
+"Y90","FLAGS = REST_READONLY","VGR_PWM_M3","","VGR = PWM Motor M3 rotate axis -  QW_VGR_PWM_Rotat e_M 3"
+"Y91","FLAGS = REST_READONLY","MPO_PWM_M5","","MPO = PWM Motor M5 turn-table -  QW_MPO_PWM_Vacu um_ M5"
+"Y92","FLAGS = REST_READONLY","SSC_PWM_M1","","SSC = PWM Motor M1 vertical axis -  QW_SSC_PWM_Vertic al_ M1"
+"Y93","FLAGS = REST_READONLY","SSC_PWM_M2","","SSC = PWM Motor M2 horizontal axis -  QW_SSC_PWM_Horiz ontal _M2"
+"Y94","FLAGS = REST_READONLY","MPO_PWM_M1","","MPO = PWM Motor M1 turn-table -  QW_MPO_PWM_Turn Table _M1"
+"WX0","FLAGS = REST_READONLY","SLD_A4","","SLD - A4 = Color sensor -  IW_SLD_ColorSensor_ A4"
+"WX1","FLAGS = REST_READONLY","SSC_A1","","SSC - A1 = Color sensor -  IW_SSC_ColorSensor_ A1"
+"C0","FLAGS = REST_READONLY","NOP","",""
+"C1","FLAGS = REST_READONLY","CALL","",""
+"C11","FLAGS = REST_READONLY","C11_Interlock","","Used to delay logic by one scan"
+"C12","FLAGS = REST_READONLY","C12_Interlock_2","","Used to delay logic by one scan"
+"C20","FLAGS = REST_READONLY","HBW_Has_Pallet","","True when carrying a pallet"
+"C51","FLAGS = REST_READONLY","X_Direction","","True: Left False: Right"
+"C52","FLAGS = REST_READONLY","Z_Direction","","True: Down False: Up"
+"C80","FLAGS = REST_READONLY","Conveyor_Timeout","","Bit high when Conveyor Timeout timer active"
+"C90","FLAGS = REST_READONLY","HBW_XY_PID_EN","","Enables PID control in HBW_Move_XZ"
+"C101","FLAGS = REST_READONLY","HBW_T1_Send","Modbus MC101","Task to deliver a pallet to conveyor"
+"C102","FLAGS = REST_READONLY","HBW_T2_Receive","Modbus MC102","Task to pickup a pallet from conveyor"
+"C103","FLAGS = REST_READONLY","HBW_T3_Reset","Modbus MC103","Reinitialize and home all axises"
+"C104","FLAGS = REST_READONLY","HBW_T4_Manual","Modbus MC104","Switch to manual mode"
+"C110","FLAGS = REST_READONLY","HBW_Move_X_L","Modbus MC110","Move Horizontal Axis towards bay"
+"C111","FLAGS = REST_READONLY","HBW_Move_X_R","Modbus MC111","Move Horizontal Axis towards Conveyor"
+"C112","FLAGS = REST_READONLY","HBW_Move_Y_In","Modbus MC112","Move Cantilever In"
+"C113","FLAGS = REST_READONLY","HBW_Move_Y_Out","Modbus MC113","Move Cantilever Out"
+"C114","FLAGS = REST_READONLY","HBW_Move_Z_Up","Modbus MC114","Move Vertical Axis Up"
+"C115","FLAGS = REST_READONLY","HBW_Move_Z_Down","Modbus MC115","Move Vertical Axis Down"
+"C116","FLAGS = REST_READONLY","HBW_Conveyor_In","Modbus MC116","Move Conveyor In"
+"C117","FLAGS = REST_READONLY","HBW_Conveyor_Out","Modbus MC117","Move Conveyor Out"
+"C130","FLAGS = REST_READONLY","HBW_Status_Ready","Modbus MC130","On when ready for a task"
+"C133","FLAGS = REST_READONLY","HBW_Mov_Conveyor","Modbus MC133","Status Conveyor Moving"
+"C134","FLAGS = REST_READONLY","HBW_Moving_X","Modbus MC134","Status GantryMovingX"
+"C135","FLAGS = REST_READONLY","HBW_Moving_Y","Modbus MC135","Status GantryMovingY"
+"C136","FLAGS = REST_READONLY","HBW_Moving_Z","Modbus MC136","Status GantryMovingZ"
+"C138","FLAGS = REST_READONLY","HBW_Status_Y_Pos","Modbus MC138","Current Y position"
+"C141","FLAGS = REST_READONLY","HBW_Target_Y_Pos","Modbus MC141","Target Y position"
+"C150","FLAGS = REST_READONLY","HBW_MoveComplete","","HBW_Move_XZ completion interlock."
+"C180","FLAGS = REST_READONLY","HBW_Fault","Modbus MC180","Status in Fault State"
+"C182","FLAGS = REST_READONLY","Fault_X_Target","","Active when X target out of range"
+"C183","FLAGS = REST_READONLY","Fault_Z_target","","Active when Z target out of range"
+"C400","FLAGS = REST_READONLY","VGR_T0","",""
+"C410","FLAGS = REST_READONLY","VGR_T1","",""
+"C420","FLAGS = REST_READONLY","VGR_T2","",""
+"C430","FLAGS = REST_READONLY","VGR_T3","",""
+"C440","FLAGS = REST_READONLY","VGR_T4","",""
+"C500","FLAGS = REST_READONLY","VGR_Man_Control","",""
+"C701","FLAGS =","","","VGR clear of MPO pickup"
+"C799","FLAGS = REST_READONLY","VGR_RESET","",""
+"C840","FLAGS = REST_READONLY","Saw_Enable","",""
+"C841","FLAGS = REST_READONLY","MPO_Ready","",""
+"C842","FLAGS = REST_READONLY","MPO_Reset","",""
+"C900","FLAGS = REST_READONLY","Vacuum_Unloaded","","Set to on when the vacuum leaves the unload state. Reset once we jump from the turn table Idle state"
+"C901","FLAGS = REST_READONLY","Entered_End_Belt","",""
+"C1706","FLAGS = REST_READONLY","Color_Outlet_Exi","",""
+"C2000","FLAGS = REST_READONLY","Auto_Mode","","Automatic Mode Enabled"
+"C2001","FLAGS = REST_READONLY","Manual_Mode","","Manual Mode Enabled"
+"V0","FLAGS = REST_READONLY","ROW_1","","Z Value"
+"V1","FLAGS = REST_READONLY","ROW_2","","ZValue"
+"V2","FLAGS = REST_READONLY","ROW_3","","Z Value"
+"V3","FLAGS = REST_READONLY","COLUMN_1","",""
+"V4","FLAGS = REST_READONLY","COLUMN_2","",""
+"V5","FLAGS = REST_READONLY","COLUMN_3","",""
+"V105","FLAGS = REST_READONLY","HBW_Task_X_slot","Modbus MHR105","Value for slot X coord"
+"V106","FLAGS = REST_READONLY","HBW_Task_Y_slot","Modbus MHR106","Value for slot y coord"
+"V118","FLAGS = REST_READONLY","HBW_PWM_Set_X","Modbus MHR118","Set Horizontal Axis PWM Duty Cycle %"
+"V119","FLAGS = REST_READONLY","HBW_PWM_Set_Y","Modbus MHR119","Set Cantilever Axis PWM Duty Cycle %"
+"V120","FLAGS = REST_READONLY","HBW_PWM_Set_Z","Modbus MHR120","Set Vertical Axis PWM Duty cycle %"
+"V131","FLAGS = REST_READONLY","HBW_Cur_Progress","Modbus MHR131","0 to 100 percent job completion"
+"V132","FLAGS = REST_READONLY","HBW_Cur_Stage","Modbus MHR132","Current stage number"
+"V137","FLAGS = REST_READONLY","HBW_Status_X_Pos","Modbus MHR137","Current X encoder position"
+"V139","FLAGS = REST_READONLY","HBW_Status_Z_Pos","Modbus MHR139","Current Z encoder position"
+"V140","FLAGS = REST_READONLY","HBW_Target_X_Pos","Modbus MHR140","Target X encoder position"
+"V142","FLAGS = REST_READONLY","HBW_Target_Z_Pos","Modbus MHR142","Target Z encoder position"
+"V181","FLAGS = REST_READONLY","HBW_Fault_code","Modbus MHR181","Current Fault code"
+"V801","FLAGS = REST_READONLY","VGR_Fault_Code","",""
+"V1600","FLAGS = REST_READONLY","Oven_Bake_Time","",""
+"N810","FLAGS = REST_READONLY","VGR_Rot_Target","",""
+"N811","FLAGS = REST_READONLY","VGR_X_Target","",""
+"N812","FLAGS = REST_READONLY","VGR_Y_Target","",""
+"D0","FLAGS = REST_READONLY","MC","",""
+"D140","FLAGS = REST_READONLY","X_Start_Position","","Distance to target"
+"D142","FLAGS = REST_READONLY","Y_Start_Position","","Distance to target"
+"D143","FLAGS = REST_READONLY","HBW_PWM_Cur_X","","PWM value for X for XZ movement task"
+"D144","FLAGS = REST_READONLY","HBW_PWM_Cur_Z","","PWM value for Z for XZ movement task"
+"T3","FLAGS = REST_READONLY","T_HBW_S6","",""
+"T4","FLAGS = REST_READONLY","T_Conveyor_Timer","","Used to detect conveyor faults"
+"HBW_Program.S10","FLAGS = REST_READONLY","J0","",""
+"MPO_Program.S0","FLAGS = REST_READONLY","_Init_MPO11","",""
+"MPO_Program.S1","FLAGS = REST_READONLY","_Oven_Reset11","",""
+"MPO_Program.S2","FLAGS = REST_READONLY","_Vacuum_Reset11","",""
+"MPO_Program.S3","FLAGS = REST_READONLY","_TurnTable_Rese2","",""
+"MPO_Program.S4","FLAGS = REST_READONLY","_Oven_Load11","",""
+"MPO_Program.S5","FLAGS = REST_READONLY","_Vacuum_Move_Ov2","",""
+"MPO_Program.S6","FLAGS = REST_READONLY","_TurnTable_Saw11","",""
+"MPO_Program.S7","FLAGS = REST_READONLY","_Oven_Bake11","",""
+"MPO_Program.S8","FLAGS = REST_READONLY","_Vacuum_Load11","",""
+"MPO_Program.S9","FLAGS = REST_READONLY","_TurnTable_Unlo2","",""
+"MPO_Program.S10","FLAGS = REST_READONLY","_Oven_Unload11","",""
+"MPO_Program.S11","FLAGS = REST_READONLY","_Vacuum_Move_Tu2","",""
+"MPO_Program.S12","FLAGS = REST_READONLY","_TurnTable_Belt2","",""
+"MPO_Program.S13","FLAGS = REST_READONLY","_Vacuum_Unload11","",""
+"UD0","FLAGS =","_aMPO_PWM_M5","","@MPO_PWM_M5"
+"US0","FLAGS =","_CP_Strogram_A","","CP_State_Program"
+"US1","FLAGS =","_VGR_Movement","","VGR_Movement"
+"US2","FLAGS =","_SSC_Check_InOut","","SSC_Check_InOut"
+"US3","FLAGS =","_sMPO_PWM_M5","","$MPO_PWM_M5"
+"UB0","FLAGS =","_VGR_MisScan_A","","VGR_Movement.Done ThisScan"
+#END
+
